@@ -1,4 +1,4 @@
-import { createApp } from "../src/app.js";
+import handler from "../src/handler.js";
 
-// Vercel serverless entry point: the exported Express app handles every request.
-export default createApp();
+// Vercel serverless entry point. vercel.json rewrites every path to /api.
+export default handler;
