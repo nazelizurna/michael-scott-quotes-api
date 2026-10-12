@@ -3,19 +3,13 @@
   "version": "1.0.0",
   "description": "A tiny, free, open REST API serving Michael Scott quotes from The Office (US).",
   "type": "module",
-  "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
     "dev": "node --watch src/server.js",
     "test": "node --test"
   },
   "engines": {
-    "node": ">=20"
-  },
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.21.0",
-    "express-rate-limit": "^7.4.0"
+    "node": "22.x"
   },
   "license": "MIT"
 }
