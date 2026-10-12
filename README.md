@@ -15,7 +15,7 @@ All endpoints are `GET`, return JSON, require no authentication, and send
 | `/health` | Health check |
 
 ```bash
-curl https://YOUR-APP.vercel.app/v1/quotes
+curl michael-scott-quotes-api.vercel.app
 # ["That's what she said!"]
 ```
 
